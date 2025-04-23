@@ -8,4 +8,4 @@ admin.site.register(Patient)
 admin.site.register(Service)
 admin.site.register(Invoice)
 admin.site.register(InvoiceItem)
-admin.site.register(Payment)
+admin.site.register(Payment)s
