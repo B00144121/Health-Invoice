@@ -1,0 +1,20 @@
+[
+{
+  "model": "invoices.patient",
+  "pk": 1,
+  "fields": {
+    "name": "josh",
+    "email": "fuadiniho@gmail.com",
+    "phone": "086747484"
+  }
+},
+{
+  "model": "invoices.patient",
+  "pk": 2,
+  "fields": {
+    "name": "sam",
+    "email": "sam@gmail.com",
+    "phone": "08765544"
+  }
+}
+]

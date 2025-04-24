@@ -1,0 +1,11 @@
+[
+{
+  "model": "invoices.invoiceitem",
+  "pk": 1,
+  "fields": {
+    "invoice": 5,
+    "service": 1,
+    "quantity": 1
+  }
+}
+]

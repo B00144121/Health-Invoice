@@ -1,0 +1,42 @@
+[
+{
+  "model": "invoices.invoice",
+  "pk": 1,
+  "fields": {
+    "patient": 1,
+    "date": "2025-04-24T13:25:45.711Z"
+  }
+},
+{
+  "model": "invoices.invoice",
+  "pk": 2,
+  "fields": {
+    "patient": 1,
+    "date": "2025-04-24T13:27:08.716Z"
+  }
+},
+{
+  "model": "invoices.invoice",
+  "pk": 3,
+  "fields": {
+    "patient": 1,
+    "date": "2025-04-24T13:27:25.436Z"
+  }
+},
+{
+  "model": "invoices.invoice",
+  "pk": 4,
+  "fields": {
+    "patient": 1,
+    "date": "2025-04-24T13:33:56.738Z"
+  }
+},
+{
+  "model": "invoices.invoice",
+  "pk": 5,
+  "fields": {
+    "patient": 2,
+    "date": "2025-04-24T13:42:41.772Z"
+  }
+}
+]

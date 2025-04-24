@@ -1,0 +1,42 @@
+[
+{
+  "model": "invoices.payment",
+  "pk": 1,
+  "fields": {
+    "invoice": 1,
+    "amount_paid": "30.00",
+    "method": "card",
+    "date": "2025-04-24T13:26:16.503Z"
+  }
+},
+{
+  "model": "invoices.payment",
+  "pk": 2,
+  "fields": {
+    "invoice": 3,
+    "amount_paid": "20.00",
+    "method": "card",
+    "date": "2025-04-24T13:27:45.743Z"
+  }
+},
+{
+  "model": "invoices.payment",
+  "pk": 3,
+  "fields": {
+    "invoice": 4,
+    "amount_paid": "40.00",
+    "method": "cash",
+    "date": "2025-04-24T13:34:34.430Z"
+  }
+},
+{
+  "model": "invoices.payment",
+  "pk": 4,
+  "fields": {
+    "invoice": 5,
+    "amount_paid": "30.00",
+    "method": "card",
+    "date": "2025-04-24T13:43:03.985Z"
+  }
+}
+]

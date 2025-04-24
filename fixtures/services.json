@@ -1,0 +1,10 @@
+[
+{
+  "model": "invoices.service",
+  "pk": 1,
+  "fields": {
+    "name": "Blood Test",
+    "price": "30.00"
+  }
+}
+]
