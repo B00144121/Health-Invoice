@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block content %}
+<h2>Patients</h2>
+
+<!-- Add New Patient button -->
+<a href="{% url 'add_patient' %}" class="btn btn-primary">Add New Patient</a>
+
+<!-- Patient list -->
+<ul>
+    {% for patient in patients %}
+    <li>{{ patient.name }} - {{ patient.email }} - {{ patient.phone }}</li>
+    {% empty %}
+    <li>No patients found.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

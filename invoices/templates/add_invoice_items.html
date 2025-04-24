@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
+<h2>Add Items to Invoice {{ invoice.id }}</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Add Item</button>
+</form>
 
-</body>
-</html>
+<h3>Items:</h3>
+<ul>
+    {% for item in items %}
+    <li>{{ item.service.name }} - Quantity: {{ item.quantity }} - Total: €{{ item.total_price }}</li>
+
+    {% empty %}
+    <li>No items added yet.</li>
+    {% endfor %}
+</ul>
+{% endblock %}
